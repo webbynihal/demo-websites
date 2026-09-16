@@ -251,6 +251,10 @@ h1 {
     --preview-image: url("https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80");
 }
 
+.preview-8 {
+    --preview-image: url("https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=2071&auto=format&fit=crop");
+}
+
 .card-top {
     display: flex;
     align-items: center;
