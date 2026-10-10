@@ -178,6 +178,8 @@ h1 {
 
 .card {
     position: relative;
+    display: flex;
+    flex-direction: column;
     background: var(--card);
     border: 1px solid var(--card-border);
     border-radius: 22px;
@@ -266,6 +268,10 @@ h1 {
     --preview-image: url("https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80");
 }
 
+.preview-10 {
+    --preview-image: url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80");
+}
+
 .card-top {
     display: flex;
     align-items: center;
@@ -339,6 +345,7 @@ h1 {
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin-top: auto;
     padding: 12px 16px;
     border-radius: 12px;
     background: linear-gradient(135deg, rgba(124, 58, 237, 0.15), rgba(34, 211, 238, 0.12));
