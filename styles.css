@@ -272,6 +272,10 @@ h1 {
     --preview-image: url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80");
 }
 
+.preview-11 {
+    --preview-image: url("https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1600&q=80");
+}
+
 .card-top {
     display: flex;
     align-items: center;
