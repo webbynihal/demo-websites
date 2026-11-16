@@ -1,4 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
+  if (
+    window.matchMedia('(max-width: 620px), (prefers-reduced-motion: reduce)').matches
+  ) {
+    return;
+  }
+
   const cards = document.querySelectorAll('.card');
 
   cards.forEach((card, index) => {
